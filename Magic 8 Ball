@@ -1,0 +1,36 @@
+import random
+#name = input('What is your name?')
+
+#question = input("What is your question?")
+name = "Josh"
+question = "Am I going to win the lottery?\n"
+c_name = name.count("")
+
+if c_name == 0:
+  print(("Give me your name next time jack off...") + question)
+else:
+  print(name + (" asks: ") + question)
+answer = ""
+random_number = random.randint(1, 9)
+#print(random_number)
+
+if random_number == 1:
+  print("The odds are not fucking likely...")
+elif random_number == 2:
+  print("The odds are probably not but who knows...")
+elif random_number == 3:
+  print("absafuckinglootly")
+elif random_number == 4:
+  print("You bet your fucking ass it will")
+elif random_number == 5:
+  print("God damn right it will")
+elif random_number == 6:
+  print("Reply hazy, try again.")
+elif random_number == 7:
+  print("My sources say no.")
+elif random_number == 8:
+  print("Outlook not so good.")
+elif random_number == 9:
+  print("Very doubtful.")
+else:
+  print("Error wtf..")
